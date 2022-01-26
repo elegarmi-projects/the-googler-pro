@@ -28,6 +28,7 @@
         <strong>&copy; The Googler Notes</strong>
       </v-col>
     </v-footer>
+    <v-spacer></v-spacer>
   </v-app>
 </template>
 
@@ -62,6 +63,11 @@ export default {
   header a {
     color: #ffffff;
     margin: 0.4em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .header-info {
@@ -78,8 +84,9 @@ export default {
     margin: 2em auto;
   }
 
-  .v-main__wrap {
-    margin-top: 4em;
+  .v-main {
+    margin: 4em auto;
+    width: 95%;
 
     .v-card {
       margin: 1em;
@@ -100,6 +107,18 @@ export default {
         right: 15%;
       }
     }
+  }
+
+  @media (max-width: 700px) {
+    .v-main {
+      width: 80%;
+    }
+  }
+
+  .v-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 }
 </style>

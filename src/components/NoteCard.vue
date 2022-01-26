@@ -1,6 +1,10 @@
 <template>
-  <div class="d-flex justify-space-around">
-    <v-card class="mx-auto" max-width="344" outlined>
+  <div class="row">
+    <v-card
+      class="mx-auto rounded amber lighten-4 col-lg-3 col-md-6 col-xs-12"
+      max-width="344"
+      elevation="4"
+    >
       <v-list-item three-line>
         <v-list-item-content>
           <v-list-item-title class="text-h5 mb-1"
@@ -18,7 +22,11 @@
       </v-card-actions>
     </v-card>
 
-    <v-card class="mx-auto" max-width="344" outlined>
+    <v-card
+      class="mx-auto rounded amber lighten-4 col-lg-3 col-md-6 col-xs-12"
+      max-width="344"
+      elevation="4"
+    >
       <v-list-item three-line>
         <v-list-item-content>
           <v-list-item-title class="text-h5 mb-1"
@@ -38,7 +46,11 @@
       </v-card-actions>
     </v-card>
 
-    <v-card class="mx-auto" max-width="344" outlined>
+    <v-card
+      class="mx-auto rounded amber lighten-4 col-lg-3 col-md-6 col-xs-12"
+      max-width="344"
+      elevation="4"
+    >
       <v-list-item three-line>
         <v-list-item-content>
           <v-list-item-title class="text-h5 mb-1"
@@ -56,7 +68,11 @@
       </v-card-actions>
     </v-card>
 
-    <v-card class="mx-auto" max-width="344" outlined>
+    <v-card
+      class="mx-auto rounded amber lighten-4 col-lg-3 col-md-6 col-xs-12"
+      max-width="344"
+      elevation="4"
+    >
       <v-list-item three-line>
         <v-list-item-content>
           <v-list-item-title class="text-h5 mb-1"
